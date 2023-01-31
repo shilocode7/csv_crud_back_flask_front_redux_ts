@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(250, 237, 220);
+}
+
+.table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.thead-dark th {
+  background-color: #343a40;
+  color: white;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #dee2e6;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+}
+
+label {
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 150px;
+  height: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
